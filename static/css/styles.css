@@ -2478,10 +2478,11 @@ textarea.form-control-lg {
   background-size: contain;
   border: 1px solid rgba(0, 0, 0, 0.25);
   -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  -moz-appearance: none;
+   appearance: none;
   -webkit-print-color-adjust: exact;
-          color-adjust: exact;
+  color-adjust: exact;
+  
 }
 .form-check-input[type=radio] {
   border-radius: 50%;
@@ -11117,6 +11118,7 @@ footer {
   padding-bottom: 3rem;
 }
 
+
 header.masthead {
   position: relative;
   margin-bottom: 3rem;
@@ -11126,6 +11128,7 @@ header.masthead {
   background-color: #6c757d;
   background-size: cover;
   background-attachment: scroll;
+  background-image: url('static/assets/img/home-bg.jpg')
 }
 header.masthead:before {
   content: "";
